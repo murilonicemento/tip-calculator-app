@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(185deg, 41%, 84%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+}
+body main {
+  width: 375px;
+  background-color: hsl(0deg, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 24px;
+}
+body main #input-value {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+body main #input-value label {
+  margin-top: 15px;
+  font-size: 18px;
+}
+body main #input-value input {
+  height: 30px;
+  padding: 20px;
+  text-align: right;
+  background-color: hsl(189deg, 41%, 97%);
+  background-image: url(/assets/img/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: 4%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
