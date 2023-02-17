@@ -21,16 +21,18 @@
     <main>
       <section id="input-value">
         <label for="bill">Bill</label>
-        <input type="" name="bill" id="bill" />
+        <input type="number" name="bill" id="bill" />
       </section>
       <section id="tip-select">
-        <label>Select Tip %</label>
-        <button>5%</button>
-        <button>10%</button>
-        <button>15%</button>
-        <button>25%</button>
-        <button>50%</button>
-        <button>Custom</button>
+        <p>Select Tip %</p>
+        <div id="select-tip-buttons">
+          <button class="btn">5%</button>
+          <button class="btn">10%</button>
+          <button class="btn">15%</button>
+          <button class="btn">25%</button>
+          <button class="btn">50%</button>
+          <input type="number" placeholder="Custom"></input>
+        </div>
       </section>
       <section id="people-value">
         <label for="number-of-people">Number of People</label>
