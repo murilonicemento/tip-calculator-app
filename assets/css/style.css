@@ -149,11 +149,12 @@ body main #amount-result section {
   align-items: end;
   flex-direction: column;
   gap: 18px;
-  margin-top: -115px;
+  margin-top: -113px;
 }
 body main #amount-result section div {
-  width: 50px;
+  width: 100px;
   height: 50px;
+  color: hsl(172deg, 67%, 45%);
 }
 body main #amount-result button {
   width: 100%;
