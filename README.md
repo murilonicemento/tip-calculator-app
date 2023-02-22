@@ -2,7 +2,7 @@
 Projeto criado através da plataforma Frontend Mentor 
 
 ## Deploy da aplicação
-
+https://tip-calculator-app-plum.vercel.app/
 
 ## Tecnologias utilizadas
 + HTML5
