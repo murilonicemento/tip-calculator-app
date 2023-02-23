@@ -1,4 +1,3 @@
-// pegar o valor dividir pelas quantidades de pessoas depois tirar a porcentagem e o valor que deu pelo calculo da porcentagem somar com o valor dividido pelas quantidades de pessoas 
 const bill = document.getElementById("bill");
 const numberOfPeople = document.getElementById("number-of-people");
 const buttons = {
