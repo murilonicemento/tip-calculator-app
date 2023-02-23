@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -26,12 +25,12 @@
       <section id="tip-select">
         <p>Select Tip %</p>
         <div id="select-tip-buttons">
-          <button class="btn">5%</button>
-          <button class="btn">10%</button>
-          <button class="btn">15%</button>
-          <button class="btn">25%</button>
-          <button class="btn">50%</button>
-          <input type="number" placeholder="Custom"></input>
+          <button class="btn" id="btn-5">5%</button>
+          <button class="btn" id="btn-10">10%</button>
+          <button class="btn" id="btn-15">15%</button>
+          <button class="btn" id="btn-25">25%</button>
+          <button class="btn" id="btn-50">50%</button>
+          <input type="number" placeholder="Custom" id="custom-button"></input>
         </div>
       </section>
       <section id="people-value">
@@ -47,7 +46,7 @@
             <div id="tip-amount">$ 0.00</div>
             <div id="total">$ 0.00</div>
           </section>
-        <button type="reset">Reset</button>
+        <button type="reset" id="reset-button">Reset</button>
       </section>
     </main>
     <footer>

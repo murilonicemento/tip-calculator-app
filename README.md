@@ -6,9 +6,9 @@ https://tip-calculator-app-plum.vercel.app/
 
 ## Tecnologias utilizadas
 + HTML5
++ SCSS
 + CSS3
 + JavaScript
-+ 
 ## Estrutura do site
 + 
 
