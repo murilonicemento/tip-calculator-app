@@ -157,6 +157,15 @@ body {
       flex-direction: column;
 
       margin-top: 15px;
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      div span {
+        display: flex;
+        color: #e74c3c;
+      }
       input {
         height: 40px;
 
@@ -224,7 +233,7 @@ body {
         margin-top: 15px;
 
         background-color: $strong-cyan;
-        opacity: .3;
+        opacity: 0.3;
 
         font-family: "Space Mono", sans-serif;
         font-size: 24px;
@@ -235,7 +244,7 @@ body {
         border-radius: 7px;
 
         cursor: pointer;
-        transition: .4s ease-in-out;
+        transition: 0.4s ease-in-out;
       }
       button:hover {
         opacity: 1;

@@ -43,9 +43,9 @@ function TipCalculation(tip) {
 }
 
 numberOfPeople.onchange = () => {
-    if(numberOfPeople.value <= 0) {
-        numberOfPeople.style.outline = "2px solid red";
-        
+    if (numberOfPeople.value <= 0) {
+        numberOfPeople.style.outline = "2px solid #E74C3C";
+        document.querySelector("#people-value div span").innerHTML = "Can't be zero";
     }
     const tip = customButton.value / 100;
     TipCalculation(tip)

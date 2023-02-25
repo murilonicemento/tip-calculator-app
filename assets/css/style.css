@@ -118,6 +118,15 @@ body main #people-value {
   flex-direction: column;
   margin-top: 15px;
 }
+body main #people-value div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main #people-value div span {
+  display: flex;
+  color: #e74c3c;
+}
 body main #people-value input {
   height: 40px;
   padding: 20px;
