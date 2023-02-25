@@ -23,6 +23,9 @@ body input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+body input:focus-within {
+  background-color: blue;
+}
 body header {
   margin: 200px 0 15px 0;
 }
@@ -161,6 +164,7 @@ body main #amount-result button {
   height: 50px;
   margin-top: 15px;
   background-color: hsl(172deg, 67%, 45%);
+  opacity: 0.3;
   font-family: "Space Mono", sans-serif;
   font-size: 24px;
   color: hsl(183deg, 100%, 15%);
@@ -168,6 +172,10 @@ body main #amount-result button {
   border: none;
   border-radius: 7px;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+body main #amount-result button:hover {
+  opacity: 1;
 }
 body footer {
   width: 90%;

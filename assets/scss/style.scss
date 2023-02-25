@@ -37,6 +37,9 @@ body {
     -moz-appearance: textfield;
     appearance: textfield;
   }
+  input:focus-within {
+    background-color: blue;
+  }
   header {
     margin: 200px 0 15px 0;
   }
@@ -209,6 +212,7 @@ body {
         margin-top: 15px;
 
         background-color: $strong-cyan;
+        opacity: .3;
 
         font-family: "Space Mono", sans-serif;
         font-size: 24px;
@@ -219,6 +223,10 @@ body {
         border-radius: 7px;
 
         cursor: pointer;
+        transition: .4s ease-in-out;
+      }
+      button:hover {
+        opacity: 1;
       }
     }
   }
