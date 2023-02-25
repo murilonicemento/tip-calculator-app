@@ -42,18 +42,15 @@ function TipCalculation(tip) {
     Number.isInteger(total) ? totalDiv.innerHTML = `$${total}.00` : totalDiv.innerHTML = `$${total.toFixed(2)}`;
 }
 
-customButton.onchange = () => {
-    if (customButton.value < 0) {
-        alert("Digite o valor da porcentagem da gorjeta em formato inteiro e positivo");
-        return
+numberOfPeople.onchange = () => {
+    if(numberOfPeople.value <= 0) {
+        numberOfPeople.style.outline = "2px solid red";
+        
     }
-
-    numberOfPeople.onchange = () => {
-        const tip = customButton.value / 100;
-        TipCalculation(tip)
-    }
-
+    const tip = customButton.value / 100;
+    TipCalculation(tip)
 }
+
 
 resetButton.addEventListener("click", () => {
     bill.value = "";
