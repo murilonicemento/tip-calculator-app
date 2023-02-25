@@ -20,6 +20,6 @@ https://tip-calculator-app-plum.vercel.app/
 
 <img src=".github/desktop-design-completed.jpg">
 
-## Home Desktop
+## Home Mobile
 
 <img src=".github/mobile-design.jpg">
